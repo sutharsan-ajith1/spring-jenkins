@@ -11,7 +11,7 @@ public class SpringbootDockerDemoApplication {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Welcome to Kubernetes deployment";
+        return "Welcome to deployment using Jenkins!!!";
     }
 
     public static void main(String[] args) {
